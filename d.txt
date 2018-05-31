@@ -1,0 +1,57 @@
+18:40:22.064572 == Info:   Trying 93.184.216.34...
+18:40:22.065099 == Info: TCP_NODELAY set
+18:40:22.069540 == Info: Connected to example.com (93.184.216.34) port 80 (#0)
+18:40:22.069617 => Send header, 75 bytes (0x4b)
+0000: GET / HTTP/1.1
+0010: Host: example.com
+0023: User-Agent: curl/7.54.0
+003c: Accept: */*
+0049: 
+18:40:22.073614 <= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+18:40:22.073679 <= Recv header, 31 bytes (0x1f)
+0000: Cache-Control: max-age=604800
+18:40:22.073707 <= Recv header, 25 bytes (0x19)
+0000: Content-Type: text/html
+18:40:22.073729 <= Recv header, 37 bytes (0x25)
+0000: Date: Sat, 26 May 2018 01:40:22 GMT
+18:40:22.073753 <= Recv header, 26 bytes (0x1a)
+0000: Etag: "1541025663+ident"
+18:40:22.073845 <= Recv header, 40 bytes (0x28)
+0000: Expires: Sat, 02 Jun 2018 01:40:22 GMT
+18:40:22.073899 <= Recv header, 46 bytes (0x2e)
+0000: Last-Modified: Fri, 09 Aug 2013 23:54:35 GMT
+18:40:22.073952 <= Recv header, 24 bytes (0x18)
+0000: Server: ECS (sec/96EE)
+18:40:22.074014 <= Recv header, 23 bytes (0x17)
+0000: Vary: Accept-Encoding
+18:40:22.074037 <= Recv header, 14 bytes (0xe)
+0000: X-Cache: HIT
+18:40:22.074057 <= Recv header, 22 bytes (0x16)
+0000: Content-Length: 1270
+18:40:22.074079 <= Recv header, 2 bytes (0x2)
+0000: 
+18:40:22.074097 <= Recv data, 1067 bytes (0x42b)
+0000: <!doctype html>.<html>.<head>.    <title>Example Domain</title>.
+0040: .    <meta charset="utf-8" />.    <meta http-equiv="Content-type
+0080: " content="text/html; charset=utf-8" />.    <meta name="viewport
+00c0: " content="width=device-width, initial-scale=1" />.    <style ty
+0100: pe="text/css">.    body {.        background-color: #f0f0f2;.   
+0140:      margin: 0;.        padding: 0;.        font-family: "Open S
+0180: ans", "Helvetica Neue", Helvetica, Arial, sans-serif;.        . 
+01c0:    }.    div {.        width: 600px;.        margin: 5em auto;. 
+0200:        padding: 50px;.        background-color: #fff;.        bo
+0240: rder-radius: 1em;.    }.    a:link, a:visited {.        color: #
+0280: 38488f;.        text-decoration: none;.    }.    @media (max-wid
+02c0: th: 700px) {.        body {.            background-color: #fff;.
+0300:         }.        div {.            width: auto;.            mar
+0340: gin: 0 auto;.            border-radius: 0;.            padding: 
+0380: 1em;.        }.    }.    </style>    .</head>..<body>.<div>.    
+03c0: <h1>Example Domain</h1>.    <p>This domain is established to be 
+0400: used for illustrative examples in documents
+18:40:22.074560 <= Recv data, 203 bytes (0xcb)
+0000: . You may use this.    domain in examples without prior coordina
+0040: tion or asking for permission.</p>.    <p><a href="http://www.ia
+0080: na.org/domains/example">More information...</a></p>.</div>.</bod
+00c0: y>.</html>.
+18:40:22.074699 == Info: Connection #0 to host example.com left intact
